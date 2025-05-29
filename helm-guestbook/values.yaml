@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
+  repository: swr.cn-north-4.myhuaweicloud.com/ddn-k8s/gcr.io/heptio-images/ks-guestbook-demo
   tag: 0.1
   pullPolicy: IfNotPresent
 
