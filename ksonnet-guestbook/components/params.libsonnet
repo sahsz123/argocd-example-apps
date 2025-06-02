@@ -8,7 +8,7 @@
     // Each object below should correspond to a component in the components/ directory
     "guestbook-ui": {
       containerPort: 80,
-      image: "swr.cn-east-3.myhuaweicloud.com/kubesre/swr.cn-north-4.myhuaweicloud.com/ddn-k8s/gcr.io/heptio-images/ks-guestbook-demo:0.2",
+      image: "quay.io/argoprojlabs/argocd-e2e-container:0.2",
       name: "ks-guestbook-ui",
       replicas: 1,
       servicePort: 80,
